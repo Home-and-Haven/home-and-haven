@@ -1,0 +1,168 @@
+.services .image-side {
+    background-image: url('https://i.ibb.co/fYyMb4Z/Services-and-Pricing-Banner.jpg');
+}
+
+.services .title h2 {
+    margin-right: -50%;
+}
+
+.home-concierge-services h3 {
+    text-align: center;
+    color: var(--blue);
+    position: relative;
+    z-index: 1;
+}
+
+.home-concierge-services h3 span {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    color: var(--blue);
+}
+
+.home-concierge-services h3 span::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: clamp(20px, 1.2vw, 1.2vw);
+    background-color: var(--green);
+    z-index: -1;
+}
+
+.home-concierge-services p {
+    width: 80%;
+    text-align: center;
+    margin: 1% auto;
+}
+
+.support-services {
+    background-color: var(--yellow);
+    background-image: url('https://i.ibb.co/r0v1Btv/Services-Backdrop.png');
+    padding: 2% 0%;
+}
+
+.support-services .title h3 {
+    text-align: center;
+    color: var(--blue);
+}
+
+.support-services .title p {
+    text-align: center;
+    margin: 0.5% auto;
+    width: 80%;
+}
+
+.support-services .content .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+}
+
+.support-services .content .container>div {
+    text-align: center;
+    margin: 5% auto;
+    height:  clamp(500px, 25vw, 25vw);
+    width: clamp(500px, 25vw, 25vw);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: relative;
+}
+
+.support-services .content .container>div::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.support-services .content .container #home-management {
+    background-image: url('https://i.ibb.co/hDmQP8V/HOME-projects-2.jpg');
+}
+
+.support-services .content .container #organization {
+    background-image: url('https://i.ibb.co/XV1gLTh/Support-Services-Organization.jpg');
+}
+
+.support-services .content .container #personal-assistance {
+    background-image: url('https://i.ibb.co/JCnYw1g/Support-Services-Personal-Assistance.png');
+}
+
+.support-services .content .container #errand-services {
+    background-image: url('https://i.ibb.co/NNJSdJ0/Support-Services-Errand-Services.jpg');
+}
+
+.support-services .content .container>div .content {
+    position: relative;
+    z-index: 2;
+    transform: translate(0%, 150%);
+}
+
+.support-services .content .container>div .content h3 {
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+
+.support-services .content .container>div .content .button {
+    margin: auto;
+    min-height: clamp(2.8em, 2.8em, 5.2em) !important;
+    width: clamp(200px, 13vw, 13vw);
+}
+
+.support-services .content .container>div .hidden {
+    transform: translate(0%, 10%);
+}
+
+.support-services .content .container>div .hidden ul {
+    text-align: left;
+    width: 90%;
+    margin: 5% auto;
+}
+
+.support-services .content .container>div .hidden ul li {
+
+    margin: 2% auto;
+}
+
+.support-services .content .container>div .hidden ul li {
+
+    margin: 2% auto;
+    font-size: var(--h5);
+}
+
+.service-call {
+    text-align: center;
+}
+
+.service-call h3 {
+    font-family: var(--body) !important;
+    color: var(--red);
+    text-align: center;
+    margin: 20px auto;
+}
+
+.service-call .button {
+    text-align: center;
+    margin: auto;
+    background-color: var(--red);
+}
+
+.pricing {
+    text-align: center;
+}
+
+.pricing h3 {
+    color: var(--blue);
+}
+
+.pricing p {
+    margin: 1% auto;
+}

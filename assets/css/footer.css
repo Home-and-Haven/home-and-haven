@@ -1,0 +1,167 @@
+.footer {
+    background-color: var(--pink);
+    color: white;
+    padding: clamp(20px, 2vw, 2vw);
+    padding-bottom: 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.footer .footer-content {
+    position: relative;
+    z-index: 1;
+}
+
+.footer .footer-section {
+    text-align: center;
+}
+
+.footer .footer-section img {
+    width: clamp(225px, 12vw, 12vw) !important;
+    margin: clamp(10px, 0.2vw, 0.2vw) auto;
+}
+
+.footer .footer-links {
+    text-align: center;
+    padding: clamp(10px, 1vw, 1vw);
+}
+
+.footer .footer-links ul {
+    display: flex;
+    justify-content: center;
+    gap: clamp(15px, 2.5vw, 2.5vw);
+}
+
+
+.footer .footer-links ul li.active a {
+    color: var(--blue);
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: clamp(5px, 0.3vw, 0.3vw);
+    text-decoration-thickness: clamp(2px, 0.12vw, 0.12vw);
+}
+
+.footer .footer-links ul li a:hover {
+    color: var(--blue);
+}
+
+.footer .quote {
+    margin: auto;
+    width: 50%;
+    padding: clamp(20px, 2vw, 2vw);
+}
+
+.footer p {
+    font-size: var(--h6);
+    text-align: center;
+    color: var(--red);
+}
+
+.footer .column {
+    float: left;
+    text-align: center;
+    margin: auto 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    margin: auto 0;
+}
+
+.footer .grid-container .logo {
+    text-align: left;
+}
+
+.footer .grid-container .logo img {
+    width: clamp(150px, 10vw, 10vw);
+}
+
+.footer .grid-container .social-media {
+    text-align: right;
+    margin: auto 0;
+}
+
+.footer .grid-container .social-media a {
+    font-size: 1.8em !important;
+    padding: 2% 3%;
+    color: var(--red);
+    transition: all 250ms;
+}
+
+.footer .grid-container .social-media a:hover {
+    color: var(--blue);
+}
+
+#overflow-logo {
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+    height: 100%;
+    width: clamp(500px, 25vw, 25vw);
+    opacity: 0.05;
+    right: 0;
+    bottom: -80px;
+}
+
+@media (max-width: 875px) {
+    .footer .footer-links ul {
+        gap: 5%;
+    }
+
+    .grid-container {
+        grid-template-columns: 100%;
+    }
+
+    .footer .quote {
+        width: 80%;
+    }
+
+    #overflow-logo {
+        width: 350px;
+    }
+
+    .footer .grid-container .logo {
+        display: none;
+    }
+
+    .footer .grid-container .social-media {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .footer .grid-container .social-media a {
+        font-size: var(--h3);
+        color: var(--red);
+    }
+
+    .footer .quote {
+        width: 100%;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .footer .footer-links ul {
+        display: block;
+    }
+
+    .footer .footer-links ul li {
+        padding: 1% 0%;
+        text-align: center;
+    }
+
+    #overflow-logo {
+        bottom: -150px;
+    }
+}

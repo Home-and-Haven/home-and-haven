@@ -1,0 +1,76 @@
+@media (max-width: 1400px) {
+    .contact-us .banner-column {
+        height: 500px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-us .email-form {
+
+        width: 350px !important;
+    }
+
+    .contact-us .form-side .email-form form .form-section .container .content input,
+    .mobile-webform .email-form form .form-section .container .content input {
+        height: 35px;
+    }
+
+    .contact-us .form-side .email-form form .form-section .container .content textarea,
+    .mobile-webform .email-form form .form-section .container .content textarea {
+        height: 110px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .contact-us .banner-column {
+        height: 350px;
+    }
+
+    .contact-us .form-side .email-form {
+        display: none;
+    }
+
+    .mobile-webform .email-form {
+        margin: 50px auto;
+        position: relative;
+        width: 450px;
+        right: 0%;
+        height: 500px;
+        display: block
+    }
+
+    .mobile-webform .email-form form .form-section .container {
+        margin: 15px auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-us .banner-column {
+        height: 250px;
+    }
+
+    .contact-us::before {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .mobile-webform .email-form {
+        width: 90%;
+        height: 100%
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-us {
+
+        background-image: url('https://i.ibb.co/g6xX4k6/HOME-clothing-line.jpg');
+        background-size: 100%;
+    }
+
+    .contact-us::before {
+        display: block;
+    }
+}

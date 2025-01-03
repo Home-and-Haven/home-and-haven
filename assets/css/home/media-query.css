@@ -1,0 +1,59 @@
+@media (max-width: 1300px){
+    .projects .container {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .home-services .row {
+        width: 95%;
+    }
+
+    .home-services .column .content-container {
+        height: 400px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .about-hh p {
+        width: 95%;
+        padding: 15px 0;
+    }
+
+    .home-services .image img {
+        width: 12%;
+    }
+
+    .home-services .row {
+        grid-template-columns: 100%;
+    }
+
+    .home-services .row {
+        width: 70%;
+    }
+
+    .projects .container {
+        grid-template-columns: auto auto auto;
+    }
+
+    .projects .container>div {
+        width: 90%;
+    }
+
+    .home-services .text{
+        width: 90%;
+    }
+    
+
+}
+@media (max-width: 500px) {
+    .home-services .row {
+        width: 90%;
+    }
+
+    .projects .container {
+        grid-template-columns: auto auto;
+    }
+}

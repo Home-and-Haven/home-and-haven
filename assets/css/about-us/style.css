@@ -1,0 +1,140 @@
+.about-us .image-side {
+    background-image: url('https://i.ibb.co/V9qHQm4/About-Us-Banner.jpg');
+}
+
+.about-us .title-section .title {
+
+    transform: translate(-5%, -50%);
+
+}
+
+/* 1st content */
+.about .image {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.about .image img {
+    width: clamp(70px, 3.5vw, 3.5vw);
+    margin: auto;
+}
+
+.about h3 {
+    text-align: center;
+    color: var(--blue);
+}
+
+.about h4 {
+    text-align: center;
+    color: var(--red);
+}
+
+.about .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 90%;
+    margin: 2% auto;
+}
+
+.about .container>div {
+    width: 100%;
+    text-align: center;
+}
+
+.about .container>div img {
+    width: 80%;
+}
+
+.how-started {
+    background-color: var(--green);
+    padding: clamp(10px, 5vw, 5vw) 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.how-started .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.how-started .column {
+    float: left;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.how-started .column .content {
+    background-color: var(--white);
+    border-radius: clamp(15px, 1vw, 1vw);
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.how-started .column .content h4 {
+    font-family: var(--header) !important;
+    color: var(--blue);
+}
+
+.how-started .column .content p {
+    text-align: justify;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.how-started #how-stated-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transform: translate(0%, 0%);
+    right: 0;
+    width: 1000px;
+    height: 1000px;
+    z-index: 0;
+}
+
+.how-started .image-container {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(45px, 5.5vw, 5.5vw);
+}
+
+.how-started .column .column-container {
+    padding: 0 4%;
+}
+
+.how-started .column .column-container img {
+    width: 38%;
+    background-color: var(--white);
+    padding: clamp(5px, 0.5vw, 0.5vw);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: clamp(5px, 0.5vw, 0.5vw);
+}
+
+.how-started .column .gracie img {
+    float: right;
+}
+
+.how-started .column .taylor img {
+    float: left;
+}
+
+.mission {
+    text-align: center;
+}
+
+.mission h3 {
+    padding: clamp(10px, 0.5vw, 0.5vw);
+    color: var(--blue);
+}
+
+.mission p {
+    width: 80%;
+    margin: auto;
+}
